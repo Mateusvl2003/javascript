@@ -7,14 +7,15 @@
     <title>Cálculo do Imc</title>
 </head>
 <body>
-    <h1>Cáculo do Imc</h1>
+    <h1>Cálculo do Imc</h1>
     <form name="frmImc">
         <input type="text" name="txtPeso" placeholder="Peso">
         <p><input type="text" name="txtAltura" placeholder="Altura"></p>
         <input type="button" value="Calcular" onclick="calcular()">
-        <input type="reset" value="limpar">
+        <input type="reset" value="limpar" onclick="limpar()">
         <p><input type="text" name="txtImc" placeholder="IMC" disabled></p> 
     </form>
+    <img src="imc.png" alt="imc" id="status">
     <script src="imc.js"></script>
 </body>
 </html>
